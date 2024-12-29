@@ -1,0 +1,262 @@
+
+body {
+    background: linear-gradient(to right, #9a6590, #DEABAF);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+
+
+
+
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar-item {
+    color: rgb(196, 22, 22) !important;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.navbar-item:hover {
+    background-color: #444;
+}
+
+.navbar-burger span {
+    background-color: rgb(229, 134, 134);
+}
+
+/* Hero Section */
+.hero.is-primary {
+    background-color: #8d0f0f;
+    color: white;
+    padding: px 0;
+    text-align: center;
+}
+
+.hero .title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero .subtitle {
+    font-size: 1.5rem;
+}
+
+/* About Section */
+#about {
+    padding: 60px 15px;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+#about .subtitle {
+    color: #33618f;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#about .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+#about .info {
+    flex: 1;
+    max-width: 30%;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+#about .profile-image {
+    flex: 1;
+    max-width: 200px; 
+    text-align: center; 
+    margin-left: auto; 
+}
+
+#about .profile-image img {
+    border-radius: 10px; 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+
+
+#about ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.skill-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skills-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-bar span {
+    display: block;
+    height: 100%;
+}
+
+element.style {
+    width: 80%;
+    background-color: #3420b4;
+}
+
+#projects {
+    padding: 60px 15px;
+    background-color: #fff;
+}
+
+#projects .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #33618f;
+    margin-bottom: 30px;
+}
+
+.project {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.button.is-link {
+    background-color: #6e78e1;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.button.is-link:hover {
+    background-color: #33468d;
+}
+
+
+.card {
+    border: 1px solid #b31919;
+    box-shadow: 0 2px 5px rgba(1, 12, 3, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+element.style {
+    width: 80%;
+    background-color: #297fb0;
+}
+
+#contact {
+    padding: 60px 15px;
+    background-color: #f8f9fa;
+}
+
+#contact .title {
+    font-size: 2.5rem;
+    color: #33618f;
+    text-align: center;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.footer {
+    background-color: #ac1717;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #211d6c;
+}
+#projects {
+    padding: 60px 15px;
+    background-color: #8d0f0f;
+}
+
+@media screen and (max-width: 768px) {
+    #about .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about .info {
+        max-width: 100%;
+    }
+
+    #about .profile-image {
+        max-width: 80%;
+    }
+
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
